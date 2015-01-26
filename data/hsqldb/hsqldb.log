@@ -43,3 +43,4 @@ alter table Etapa_Semaforo add constraint FKE41B53281D56ED71 foreign key (semafo
 alter table PLANES_Etapa add constraint FK9B5D863BA1E0D8BD foreign key (PLANES_id_plan) references PLANES
 alter table PLANES_Etapa add constraint FK9B5D863B875CBCE2 foreign key (etapas_id_etapa) references Etapa
 alter table Semaforo add constraint FK4C5E1D4C96655311 foreign key (CALLES_idCalle) references Calle
+DISCONNECT

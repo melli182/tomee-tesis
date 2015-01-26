@@ -9,8 +9,8 @@
 		JdbcDriver          com.mysql.jdbc.Driver
 		JdbcUrl             jdbc:mysql://127.0.0.1:3306/semaforos
 		UserName            root
-		Password            root
-		JtaManaged          false
+		Password            
+		JtaManaged          true
 		DefaultAutoCommit   false
 	</Resource>
 </tomee>

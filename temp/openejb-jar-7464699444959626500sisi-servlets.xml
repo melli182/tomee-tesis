@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<openejb-jar xmlns="http://www.openejb.org/openejb-jar/1.1">
+    <properties></properties>
+    <ejb-deployment container-id="Default Stateless Container" deployment-id="ControladorManager" ejb-name="ControladorManager"/>
+    <ejb-deployment container-id="Default Stateless Container" deployment-id="CruceSemaforosManager" ejb-name="CruceSemaforosManager"/>
+    <ejb-deployment container-id="Default Stateless Container" deployment-id="SemaforoManager" ejb-name="SemaforoManager"/>
+    <ejb-deployment container-id="Default Stateless Container" deployment-id="CalleManager" ejb-name="CalleManager"/>
+    <ejb-deployment container-id="Default Stateless Container" deployment-id="EtapaManager" ejb-name="EtapaManager"/>
+    <ejb-deployment container-id="Default Stateless Container" deployment-id="PlanManager" ejb-name="PlanManager"/>
+    <ejb-deployment container-id="Default Stateful Container" deployment-id="UsuarioManager" ejb-name="UsuarioManager"/>
+</openejb-jar>

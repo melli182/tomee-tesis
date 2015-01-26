@@ -1,0 +1,1248 @@
+dic 22, 2014 7:32:42 P.M. org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Caminova\Document Express DjVu Plug-in\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_67\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin.;;.
+dic 22, 2014 7:32:42 P.M. org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+dic 22, 2014 7:32:42 P.M. org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Mon Dec 22 19:32:43 UYST 2014
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.1
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20140912
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 01:43
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = C:\tomee-tesis
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = C:\tomee-tesis
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efc1cc6
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is 'C:\tomee-tesis\conf\tomee.xml'
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=sisi-DS, type=Resource, provider-id=Default JDBC Database)
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+dic 22, 2014 7:32:43 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: openejb
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=sisi-DS)
+dic 22, 2014 7:32:44 P.M. org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+dic 22, 2014 7:32:44 P.M. org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+dic 22, 2014 7:32:45 P.M. org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3106 ms
+dic 22, 2014 7:32:45 P.M. org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+dic 22, 2014 7:32:45 P.M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+dic 22, 2014 7:32:45 P.M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+dic 22, 2014 7:32:45 P.M. org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\tomee-tesis\webapps\sisi-servlets.war
+dic 22, 2014 7:32:45 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /sisi-servlets
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\sisi-servlets
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.AnnotationDeployer$ProcessAnnotatedBeans getLookupMethod
+WARNING: Method 'lookup' is not available for 'javax.ejb.EJB'. The old API 'file:/C:/tomee-tesis/lib/annotations-api.jar' was found on the classpath.
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb PlanManager: EjbDeployment(deployment-id=PlanManager)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CruceSemaforosManager: EjbDeployment(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CalleManager: EjbDeployment(deployment-id=CalleManager)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb SemaforoManager: EjbDeployment(deployment-id=SemaforoManager)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb ControladorManager: EjbDeployment(deployment-id=ControladorManager)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb EtapaManager: EjbDeployment(deployment-id=EtapaManager)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb UsuarioManager: EjbDeployment(deployment-id=UsuarioManager)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean UsuarioManager: Container(type=STATEFUL, id=Default Stateful Container)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateful Container)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.core.stateful.SimplePassivater init
+INFO: Using directory C:\tomee-tesis\temp for stateful session passivation
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=SemaforizacionInteligente, provider=org.hibernate.ejb.HibernatePersistence)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'sisi-DSNonJta' of type 'DataSource for 'SemaforizacionInteligente'.
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring Service(id=sisi-DSNonJta, type=Resource, provider-id=sisi-DS)
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=sisi-DSNonJta)
+dic 22, 2014 7:32:45 P.M. org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit SemaforizacionInteligente <non-jta-data-source> to Resource ID 'sisi-DSNonJta' from 'null'
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\sisi-servlets" loaded.
+dic 22, 2014 7:32:45 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\sisi-servlets
+dic 22, 2014 7:32:46 P.M. org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+dic 22, 2014 7:32:46 P.M. org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.1.4.Final}
+dic 22, 2014 7:32:46 P.M. org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+dic 22, 2014 7:32:46 P.M. org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+dic 22, 2014 7:32:46 P.M. org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: SemaforizacionInteligente
+	...]
+dic 22, 2014 7:32:46 P.M. org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+dic 22, 2014 7:32:46 P.M. org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+dic 22, 2014 7:32:46 P.M. org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+dic 22, 2014 7:32:46 P.M. org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+dic 22, 2014 7:32:46 P.M. org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+dic 22, 2014 7:32:46 P.M. org.hibernate.validator.util.Version <clinit>
+INFO: Hibernate Validator 4.2.0.Final
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000227: Running hbm2ddl schema export
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CONTROLADORES drop constraint FK574B3F1AB0B1F87
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK574B3F1AB0B1F87' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES drop constraint FKFE4971A0A02CFE80
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKFE4971A0A02CFE80' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES drop constraint FKFE4971A0D95049CB
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKFE4971A0D95049CB' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS drop constraint FKAAB7BE13A02CFE80
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKAAB7BE13A02CFE80' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS drop constraint FKAAB7BE13E6C48F29
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKAAB7BE13E6C48F29' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CruceSemaforos drop constraint FKC658CFF34E4AFB2
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKC658CFF34E4AFB2' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo drop constraint FKE41B5328A45A510F
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKE41B5328A45A510F' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo drop constraint FKE41B53281D56ED71
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKE41B53281D56ED71' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa drop constraint FK9B5D863BA1E0D8BD
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK9B5D863BA1E0D8BD' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa drop constraint FK9B5D863B875CBCE2
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK9B5D863B875CBCE2' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Semaforo drop constraint FK4C5E1D4C96655311
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK4C5E1D4C96655311' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CONTROLADORES if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CRUCES_CALLES if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CRUCES_SEMAFOROS if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Calle if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CruceSemaforos if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Etapa if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Etapa_Semaforo if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table PLANES if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table PLANES_Etapa if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Semaforo if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Usuario if exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CONTROLADORES (id_controlador bigint generated by default as identity (start with 1), info_hw varchar(255), ip varchar(255), version_sw varchar(255), CRUCES_idCruce bigint, primary key (id_controlador))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), info_hw varchar(255), ip varcha' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CRUCES_CALLES (cruce_id bigint not null, calle_id bigint not null)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'cruces_calles' already exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CRUCES_SEMAFOROS (cruce_id bigint not null, semaforo_id bigint not null)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'cruces_semaforos' already exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Calle (id bigint generated by default as identity (start with 1), nombre varchar(255), primary key (id))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), primary ke' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CruceSemaforos (id_cruce_semaforos bigint generated by default as identity (start with 1), nombre varchar(255), latitud double not null, longitud double not null, PLANES_idPlanes bigint, primary key (id_cruce_semaforos))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), latitud do' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Etapa (id_etapa bigint generated by default as identity (start with 1), nombre varchar(255), segundosLuzAmarilla double not null, segundosLuzVerde double not null, primary key (id_etapa))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), segundosLu' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Etapa_Semaforo (Etapa_id_etapa bigint not null, semaforosInvolucrados_id bigint not null, unique (semaforosInvolucrados_id))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'etapa_semaforo' already exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table PLANES (id_plan bigint generated by default as identity (start with 1), primary key (id_plan))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), primary key (id_plan))' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table PLANES_Etapa (PLANES_id_plan bigint not null, etapas_id_etapa bigint not null, unique (etapas_id_etapa))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'planes_etapa' already exists
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Semaforo (id bigint generated by default as identity (start with 1), nombre varchar(255), orientacion double not null, pinLuzAmarilla integer not null, pinLuzRoja integer not null, pinLuzVerde integer not null, CALLES_idCalle bigint, primary key (id))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), orientacio' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Usuario (id bigint generated by default as identity (start with 1), nombre varchar(255), password varchar(255), primary key (id))
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), password v' at line 1
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CONTROLADORES add constraint FK574B3F1AB0B1F87 foreign key (CRUCES_idCruce) references CruceSemaforos
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'semaforos.controladores' doesn't exist
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES add constraint FKFE4971A0A02CFE80 foreign key (cruce_id) references CruceSemaforos
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES add constraint FKFE4971A0D95049CB foreign key (calle_id) references Calle
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS add constraint FKAAB7BE13A02CFE80 foreign key (cruce_id) references CruceSemaforos
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS add constraint FKAAB7BE13E6C48F29 foreign key (semaforo_id) references Semaforo
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CruceSemaforos add constraint FKC658CFF34E4AFB2 foreign key (PLANES_idPlanes) references PLANES
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'semaforos.crucesemaforos' doesn't exist
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo add constraint FKE41B5328A45A510F foreign key (Etapa_id_etapa) references Etapa
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo add constraint FKE41B53281D56ED71 foreign key (semaforosInvolucrados_id) references Semaforo
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa add constraint FK9B5D863BA1E0D8BD foreign key (PLANES_id_plan) references PLANES
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa add constraint FK9B5D863B875CBCE2 foreign key (etapas_id_etapa) references Etapa
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16a' (errno: 150)
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Semaforo add constraint FK4C5E1D4C96655311 foreign key (CALLES_idCalle) references Calle
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'semaforos.semaforo' doesn't exist
+dic 22, 2014 7:32:47 P.M. org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000230: Schema export complete
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=SemaforizacionInteligente, provider=org.hibernate.ejb.HibernatePersistence) - provider time 1688ms
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=PlanManagerLocalBean) --> Ejb(deployment-id=PlanManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/PlanManager!com.r2c.pfc.model.negocio.PlanManager) --> Ejb(deployment-id=PlanManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/PlanManager) --> Ejb(deployment-id=PlanManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CruceSemaforosManagerLocalBean) --> Ejb(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CruceSemaforosManager!com.r2c.pfc.model.negocio.CruceSemaforosManager) --> Ejb(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CruceSemaforosManager) --> Ejb(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CalleManagerLocalBean) --> Ejb(deployment-id=CalleManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CalleManager!com.r2c.pfc.model.negocio.CalleManager) --> Ejb(deployment-id=CalleManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CalleManager) --> Ejb(deployment-id=CalleManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=SemaforoManagerLocalBean) --> Ejb(deployment-id=SemaforoManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/SemaforoManager!com.r2c.pfc.model.negocio.SemaforoManager) --> Ejb(deployment-id=SemaforoManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/SemaforoManager) --> Ejb(deployment-id=SemaforoManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=ControladorManagerLocalBean) --> Ejb(deployment-id=ControladorManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/ControladorManager!com.r2c.pfc.model.negocio.ControladorManager) --> Ejb(deployment-id=ControladorManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/ControladorManager) --> Ejb(deployment-id=ControladorManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=EtapaManagerLocalBean) --> Ejb(deployment-id=EtapaManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/EtapaManager!com.r2c.pfc.model.negocio.EtapaManager) --> Ejb(deployment-id=EtapaManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/EtapaManager) --> Ejb(deployment-id=EtapaManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=UsuarioManagerLocalBean) --> Ejb(deployment-id=UsuarioManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/UsuarioManager!com.r2c.pfc.model.negocio.UsuarioManager) --> Ejb(deployment-id=UsuarioManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/UsuarioManager) --> Ejb(deployment-id=UsuarioManager)
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efc1cc6
+dic 22, 2014 7:32:47 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:32:47 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:32:47 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:32:48 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 90 ms.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=UsuarioManager, ejb-name=UsuarioManager, container=Default Stateful Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=PlanManager, ejb-name=PlanManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=CalleManager, ejb-name=CalleManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=SemaforoManager, ejb-name=SemaforoManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=EtapaManager, ejb-name=EtapaManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=ControladorManager, ejb-name=ControladorManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=CruceSemaforosManager, ejb-name=CruceSemaforosManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=UsuarioManager, ejb-name=UsuarioManager, container=Default Stateful Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=PlanManager, ejb-name=PlanManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=CalleManager, ejb-name=CalleManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=SemaforoManager, ejb-name=SemaforoManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=EtapaManager, ejb-name=EtapaManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=ControladorManager, ejb-name=ControladorManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=CruceSemaforosManager, ejb-name=CruceSemaforosManager, container=Default Stateless Container)
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\sisi-servlets)
+dic 22, 2014 7:32:48 P.M. org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\tomee-tesis\webapps\sisi-servlets.war has finished in 3,295 ms
+dic 22, 2014 7:32:48 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\docs
+dic 22, 2014 7:32:48 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /docs
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\docs
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\docs" loaded.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\docs
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efc1cc6
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:32:48 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:32:48 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:32:48 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\docs)
+dic 22, 2014 7:32:48 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\docs has finished in 200 ms
+dic 22, 2014 7:32:48 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\host-manager
+dic 22, 2014 7:32:48 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /host-manager
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\host-manager
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\host-manager" loaded.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\host-manager
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efc1cc6
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:32:48 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:32:48 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:32:48 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:32:48 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\tomee-tesis\webapps\host-manager\META-INF\context.xml
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\host-manager)
+dic 22, 2014 7:32:48 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\host-manager has finished in 210 ms
+dic 22, 2014 7:32:48 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\manager
+dic 22, 2014 7:32:48 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /manager
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\manager
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\manager" loaded.
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\manager
+dic 22, 2014 7:32:48 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efc1cc6
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:32:49 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\tomee-tesis\webapps\manager\META-INF\context.xml
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\manager)
+dic 22, 2014 7:32:49 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\manager has finished in 200 ms
+dic 22, 2014 7:32:49 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\ROOT
+dic 22, 2014 7:32:49 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\ROOT
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\ROOT" loaded.
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\ROOT
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efc1cc6
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\ROOT)
+dic 22, 2014 7:32:49 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\ROOT has finished in 170 ms
+dic 22, 2014 7:32:49 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\tomee
+dic 22, 2014 7:32:49 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /tomee
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\tomee
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\tomee" loaded.
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\tomee
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1efc1cc6
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:32:49 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:32:49 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\tomee)
+dic 22, 2014 7:32:49 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\tomee has finished in 180 ms
+dic 22, 2014 7:32:49 P.M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+dic 22, 2014 7:32:49 P.M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+dic 22, 2014 7:32:49 P.M. org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4319 ms
+dic 22, 2014 7:34:18 P.M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+dic 22, 2014 7:34:18 P.M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+dic 22, 2014 7:34:18 P.M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+dic 22, 2014 7:34:18 P.M. org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\tomee-tesis\webapps\sisi-servlets
+dic 22, 2014 7:34:19 P.M. org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/sisi-servlets] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\tomee-tesis\webapps\docs
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\tomee-tesis\webapps\host-manager
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\tomee-tesis\webapps\manager
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\tomee-tesis\webapps\ROOT
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\tomee-tesis\webapps\tomee
+dic 22, 2014 7:34:19 P.M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+dic 22, 2014 7:34:19 P.M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.server.SimpleServiceManager stop
+INFO: Stopping server services
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: openejb
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyResource
+INFO: Closing DataSource: sisi-DS
+dic 22, 2014 7:34:19 P.M. org.apache.openejb.assembler.classic.Assembler destroyResource
+INFO: Closing DataSource: sisi-DSNonJta
+dic 22, 2014 7:34:19 P.M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+dic 22, 2014 7:34:19 P.M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+dic 22, 2014 7:36:59 P.M. org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Caminova\Document Express DjVu Plug-in\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_67\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin.;;.
+dic 22, 2014 7:36:59 P.M. org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+dic 22, 2014 7:36:59 P.M. org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Mon Dec 22 19:37:00 UYST 2014
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.1
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20140912
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 01:43
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = C:\tomee-tesis
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = C:\tomee-tesis
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@514a4dab
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is 'C:\tomee-tesis\conf\tomee.xml'
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=sisi-DS, type=Resource, provider-id=Default JDBC Database)
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+dic 22, 2014 7:37:00 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: openejb
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=sisi-DS)
+dic 22, 2014 7:37:01 P.M. org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+dic 22, 2014 7:37:01 P.M. org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3019 ms
+dic 22, 2014 7:37:01 P.M. org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+dic 22, 2014 7:37:01 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+dic 22, 2014 7:37:01 P.M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+dic 22, 2014 7:37:01 P.M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+dic 22, 2014 7:37:01 P.M. org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\tomee-tesis\webapps\sisi-servlets.war
+dic 22, 2014 7:37:01 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /sisi-servlets
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\sisi-servlets
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.AnnotationDeployer$ProcessAnnotatedBeans getLookupMethod
+WARNING: Method 'lookup' is not available for 'javax.ejb.EJB'. The old API 'file:/C:/tomee-tesis/lib/annotations-api.jar' was found on the classpath.
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb PlanManager: EjbDeployment(deployment-id=PlanManager)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb SemaforoManager: EjbDeployment(deployment-id=SemaforoManager)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CalleManager: EjbDeployment(deployment-id=CalleManager)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb EtapaManager: EjbDeployment(deployment-id=EtapaManager)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb ControladorManager: EjbDeployment(deployment-id=ControladorManager)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CruceSemaforosManager: EjbDeployment(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb UsuarioManager: EjbDeployment(deployment-id=UsuarioManager)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean UsuarioManager: Container(type=STATEFUL, id=Default Stateful Container)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateful Container)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.core.stateful.SimplePassivater init
+INFO: Using directory C:\tomee-tesis\temp for stateful session passivation
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=SemaforizacionInteligente, provider=org.hibernate.ejb.HibernatePersistence)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'sisi-DSNonJta' of type 'DataSource for 'SemaforizacionInteligente'.
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring Service(id=sisi-DSNonJta, type=Resource, provider-id=sisi-DS)
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=sisi-DSNonJta)
+dic 22, 2014 7:37:02 P.M. org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFO: Disabling testOnBorrow since no validation query is provided
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit SemaforizacionInteligente <non-jta-data-source> to Resource ID 'sisi-DSNonJta' from 'null'
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\sisi-servlets" loaded.
+dic 22, 2014 7:37:02 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\sisi-servlets
+dic 22, 2014 7:37:02 P.M. org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+dic 22, 2014 7:37:02 P.M. org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.1.4.Final}
+dic 22, 2014 7:37:02 P.M. org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+dic 22, 2014 7:37:02 P.M. org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+dic 22, 2014 7:37:02 P.M. org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: SemaforizacionInteligente
+	...]
+dic 22, 2014 7:37:03 P.M. org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+dic 22, 2014 7:37:03 P.M. org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+dic 22, 2014 7:37:03 P.M. org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+dic 22, 2014 7:37:03 P.M. org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+dic 22, 2014 7:37:03 P.M. org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+dic 22, 2014 7:37:03 P.M. org.hibernate.validator.util.Version <clinit>
+INFO: Hibernate Validator 4.2.0.Final
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000227: Running hbm2ddl schema export
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CONTROLADORES drop constraint FK574B3F1AB0B1F87
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK574B3F1AB0B1F87' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES drop constraint FKFE4971A0A02CFE80
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKFE4971A0A02CFE80' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES drop constraint FKFE4971A0D95049CB
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKFE4971A0D95049CB' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS drop constraint FKAAB7BE13A02CFE80
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKAAB7BE13A02CFE80' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS drop constraint FKAAB7BE13E6C48F29
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKAAB7BE13E6C48F29' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CruceSemaforos drop constraint FKC658CFF34E4AFB2
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKC658CFF34E4AFB2' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo drop constraint FKE41B5328A45A510F
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKE41B5328A45A510F' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo drop constraint FKE41B53281D56ED71
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FKE41B53281D56ED71' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa drop constraint FK9B5D863BA1E0D8BD
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK9B5D863BA1E0D8BD' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa drop constraint FK9B5D863B875CBCE2
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK9B5D863B875CBCE2' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Semaforo drop constraint FK4C5E1D4C96655311
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'constraint FK4C5E1D4C96655311' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CONTROLADORES if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CRUCES_CALLES if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CRUCES_SEMAFOROS if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Calle if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table CruceSemaforos if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Etapa if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Etapa_Semaforo if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table PLANES if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table PLANES_Etapa if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Semaforo if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: drop table Usuario if exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CONTROLADORES (id_controlador bigint generated by default as identity (start with 1), info_hw varchar(255), ip varchar(255), version_sw varchar(255), CRUCES_idCruce bigint, primary key (id_controlador))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), info_hw varchar(255), ip varcha' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CRUCES_CALLES (cruce_id bigint not null, calle_id bigint not null)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'cruces_calles' already exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CRUCES_SEMAFOROS (cruce_id bigint not null, semaforo_id bigint not null)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'cruces_semaforos' already exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Calle (id bigint generated by default as identity (start with 1), nombre varchar(255), primary key (id))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), primary ke' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table CruceSemaforos (id_cruce_semaforos bigint generated by default as identity (start with 1), nombre varchar(255), latitud double not null, longitud double not null, PLANES_idPlanes bigint, primary key (id_cruce_semaforos))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), latitud do' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Etapa (id_etapa bigint generated by default as identity (start with 1), nombre varchar(255), segundosLuzAmarilla double not null, segundosLuzVerde double not null, primary key (id_etapa))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), segundosLu' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Etapa_Semaforo (Etapa_id_etapa bigint not null, semaforosInvolucrados_id bigint not null, unique (semaforosInvolucrados_id))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'etapa_semaforo' already exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table PLANES (id_plan bigint generated by default as identity (start with 1), primary key (id_plan))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), primary key (id_plan))' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table PLANES_Etapa (PLANES_id_plan bigint not null, etapas_id_etapa bigint not null, unique (etapas_id_etapa))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'planes_etapa' already exists
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Semaforo (id bigint generated by default as identity (start with 1), nombre varchar(255), orientacion double not null, pinLuzAmarilla integer not null, pinLuzRoja integer not null, pinLuzVerde integer not null, CALLES_idCalle bigint, primary key (id))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), orientacio' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: create table Usuario (id bigint generated by default as identity (start with 1), nombre varchar(255), password varchar(255), primary key (id))
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generated by default as identity (start with 1), nombre varchar(255), password v' at line 1
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CONTROLADORES add constraint FK574B3F1AB0B1F87 foreign key (CRUCES_idCruce) references CruceSemaforos
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'semaforos.controladores' doesn't exist
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES add constraint FKFE4971A0A02CFE80 foreign key (cruce_id) references CruceSemaforos
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_CALLES add constraint FKFE4971A0D95049CB foreign key (calle_id) references Calle
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS add constraint FKAAB7BE13A02CFE80 foreign key (cruce_id) references CruceSemaforos
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CRUCES_SEMAFOROS add constraint FKAAB7BE13E6C48F29 foreign key (semaforo_id) references Semaforo
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table CruceSemaforos add constraint FKC658CFF34E4AFB2 foreign key (PLANES_idPlanes) references PLANES
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'semaforos.crucesemaforos' doesn't exist
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo add constraint FKE41B5328A45A510F foreign key (Etapa_id_etapa) references Etapa
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Etapa_Semaforo add constraint FKE41B53281D56ED71 foreign key (semaforosInvolucrados_id) references Semaforo
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa add constraint FK9B5D863BA1E0D8BD foreign key (PLANES_id_plan) references PLANES
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table PLANES_Etapa add constraint FK9B5D863B875CBCE2 foreign key (etapas_id_etapa) references Etapa
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Can't create table 'semaforos.#sql-2350_16b' (errno: 150)
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Semaforo add constraint FK4C5E1D4C96655311 foreign key (CALLES_idCalle) references Calle
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table 'semaforos.semaforo' doesn't exist
+dic 22, 2014 7:37:03 P.M. org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000230: Schema export complete
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=SemaforizacionInteligente, provider=org.hibernate.ejb.HibernatePersistence) - provider time 1523ms
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=PlanManagerLocalBean) --> Ejb(deployment-id=PlanManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/PlanManager!com.r2c.pfc.model.negocio.PlanManager) --> Ejb(deployment-id=PlanManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/PlanManager) --> Ejb(deployment-id=PlanManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=SemaforoManagerLocalBean) --> Ejb(deployment-id=SemaforoManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/SemaforoManager!com.r2c.pfc.model.negocio.SemaforoManager) --> Ejb(deployment-id=SemaforoManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/SemaforoManager) --> Ejb(deployment-id=SemaforoManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CalleManagerLocalBean) --> Ejb(deployment-id=CalleManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CalleManager!com.r2c.pfc.model.negocio.CalleManager) --> Ejb(deployment-id=CalleManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CalleManager) --> Ejb(deployment-id=CalleManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=EtapaManagerLocalBean) --> Ejb(deployment-id=EtapaManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/EtapaManager!com.r2c.pfc.model.negocio.EtapaManager) --> Ejb(deployment-id=EtapaManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/EtapaManager) --> Ejb(deployment-id=EtapaManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=ControladorManagerLocalBean) --> Ejb(deployment-id=ControladorManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/ControladorManager!com.r2c.pfc.model.negocio.ControladorManager) --> Ejb(deployment-id=ControladorManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/ControladorManager) --> Ejb(deployment-id=ControladorManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CruceSemaforosManagerLocalBean) --> Ejb(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CruceSemaforosManager!com.r2c.pfc.model.negocio.CruceSemaforosManager) --> Ejb(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/CruceSemaforosManager) --> Ejb(deployment-id=CruceSemaforosManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=UsuarioManagerLocalBean) --> Ejb(deployment-id=UsuarioManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/UsuarioManager!com.r2c.pfc.model.negocio.UsuarioManager) --> Ejb(deployment-id=UsuarioManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/sisi-servlets/UsuarioManager) --> Ejb(deployment-id=UsuarioManager)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@514a4dab
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:37:04 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:37:04 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:37:04 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 91 ms.
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=UsuarioManager, ejb-name=UsuarioManager, container=Default Stateful Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=PlanManager, ejb-name=PlanManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=CalleManager, ejb-name=CalleManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=SemaforoManager, ejb-name=SemaforoManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=ControladorManager, ejb-name=ControladorManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=EtapaManager, ejb-name=EtapaManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=CruceSemaforosManager, ejb-name=CruceSemaforosManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=UsuarioManager, ejb-name=UsuarioManager, container=Default Stateful Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=PlanManager, ejb-name=PlanManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=CalleManager, ejb-name=CalleManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=SemaforoManager, ejb-name=SemaforoManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=ControladorManager, ejb-name=ControladorManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=EtapaManager, ejb-name=EtapaManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=CruceSemaforosManager, ejb-name=CruceSemaforosManager, container=Default Stateless Container)
+dic 22, 2014 7:37:04 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\sisi-servlets)
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\tomee-tesis\webapps\sisi-servlets.war has finished in 3,103 ms
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\docs
+dic 22, 2014 7:37:05 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /docs
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\docs
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\docs" loaded.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\docs
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@514a4dab
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\docs)
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\docs has finished in 190 ms
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\host-manager
+dic 22, 2014 7:37:05 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /host-manager
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\host-manager
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\host-manager" loaded.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\host-manager
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@514a4dab
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 20 ms.
+dic 22, 2014 7:37:05 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\tomee-tesis\webapps\host-manager\META-INF\context.xml
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\host-manager)
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\host-manager has finished in 215 ms
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\manager
+dic 22, 2014 7:37:05 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /manager
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\manager
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\manager" loaded.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\manager
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@514a4dab
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:37:05 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\tomee-tesis\webapps\manager\META-INF\context.xml
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\manager)
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\manager has finished in 190 ms
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\ROOT
+dic 22, 2014 7:37:05 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\ROOT
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\ROOT" loaded.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\ROOT
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@514a4dab
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\ROOT)
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\ROOT has finished in 160 ms
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\tomee-tesis\webapps\tomee
+dic 22, 2014 7:37:05 P.M. org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /tomee
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\tomee-tesis\webapps\tomee
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\tomee-tesis\webapps\tomee" loaded.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\tomee-tesis\webapps\tomee
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@514a4dab
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+dic 22, 2014 7:37:05 P.M. org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 20 ms.
+dic 22, 2014 7:37:05 P.M. org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\tomee-tesis\webapps\tomee)
+dic 22, 2014 7:37:05 P.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\tomee-tesis\webapps\tomee has finished in 190 ms
+dic 22, 2014 7:37:06 P.M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+dic 22, 2014 7:37:06 P.M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+dic 22, 2014 7:37:06 P.M. org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4124 ms
